@@ -78,6 +78,8 @@ These are just a few of the many attractions that Paris has to offer. With so mu
         print(
             f"> {result['generation']['role'].capitalize()}: {result['generation']['content']}"
         )
+        print(f"> {result['generation']['role'].capitalize()}: {result['tokens']}")
+        print(f"> {result['generation']['role'].capitalize()}: {result['logprobs']}")
         print("\n==================================\n")
 
 
