@@ -69,6 +69,7 @@ These are just a few of the many attractions that Paris has to offer. With so mu
         max_gen_len=max_gen_len,
         temperature=temperature,
         top_p=top_p,
+        logprobs=True
     )
 
     for dialog, result in zip(dialogs, results):
